@@ -1,0 +1,3 @@
+﻿  main1.c
+C:\Users\krzys\source\repos\finished_project\finished_project\main1.c(11,6): warning C4013: niezdefiniowany "menu"; przy założeniu, że extern zwraca int
+  finished_project.vcxproj -> C:\Users\krzys\source\repos\finished_project\Debug\finished_project.exe

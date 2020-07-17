@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<br>witam</br>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Tytul strony</title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <section>
+        <p>To jest nasza nowa strona internetowa HTML5 CSS3.</p>
+    </section>
+
+    <footer></footer>
+
+</body>
+
+</html>
