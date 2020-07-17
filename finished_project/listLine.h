@@ -61,7 +61,7 @@ void deleteList(ListElement_type** head);
 */
 ListElement_type* whichLine(int line, int counter, ListElement_type* head);
 
-/** Funkcja obs³uguje dzia³¹nie ca³ego programu wywo³uj¹c pozosta³e funkcje
+/** Funkcja obs³uguje dzia³anie ca³ego programu wywo³uj¹c pozosta³e funkcje
 @param read nazwa pliku do wczytania podana przez u¿ytkownika 
 @param save nazwa pliku do zapisu podana przez u¿ytkownika 
 */
