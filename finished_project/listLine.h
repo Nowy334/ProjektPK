@@ -7,19 +7,19 @@
 #include <stdlib.h>
 #include <string.h>
 
-/** Funkcja dodaje do listy jednokierunkowej kolejno pobrane linie przyk³adowego pliku.
+/** Funkcja dodaje do listy jednokierunkowej kolejno pobrane linie przyk³adowego pliku
 @param head wskaŸnik na pocz¹tek listy
 @param bufor tablica do przechowywania pobranych linijek z pliku
 */
 void pushBack(ListElement_type** head, char* bufor);
 
-/** Funkcja wczytuje kolejne linijki kodu z przyk³adowego pliku.
+/** Funkcja wczytuje kolejne linijki kodu z przyk³adowego pliku
 @param bufor tablica do przechowywania pobranych linijek z pliku
 @param head wskaŸnik na pocz¹tek listy
 */
 void readFile(char* bufor, ListElement_type** head, char* read);
 
-/** Funkcja wyswietla pobrany plik na ekran konsoli.
+/** Funkcja wyswietla pobrany plik na ekran konsoli
 @param head wskaŸnik na pocz¹tek listy
 */
 void show(ListElement_type* head);
@@ -29,8 +29,9 @@ void show(ListElement_type* head);
 */
 void saveToFile(ListElement_type* head, char* save);
 
-/** Funkcja zlicza iloœæ elementów listy jednokierunkowej.
+/** Funkcja zlicza iloœæ elementów listy jednokierunkowej
 @param head wskaŸnik na pocz¹tek listy
+@return counter iloœæ elementów listy
 */
 int listSize(ListElement_type* head);
 
@@ -53,11 +54,17 @@ ListElement_type* findLine(ListElement_type* head, int n);
 */
 void deleteList(ListElement_type** head);
 
-/** Funkcja pobiera numer lini która u¿ytkownik chce edytowaæ 
+/** Funkcja pobiera numer lini któr¹ u¿ytkownik chce edytowaæ 
 @param line pobrany przez u¿ytkownika numer lini
 @param counter iloœæ wszystkich lini w pliku
 @param head wskaŸnik na pierwsyz element listy 
 */
 ListElement_type* whichLine(int line, int counter, ListElement_type* head);
+
+/** Funkcja obs³uguje dzia³¹nie ca³ego programu wywo³uj¹c pozosta³e funkcje
+@param read nazwa pliku do wczytania podana przez u¿ytkownika 
+@param save nazwa pliku do zapisu podana przez u¿ytkownika 
+*/
+void menu(char* read, char* save);
 
 #endif
