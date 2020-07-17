@@ -165,7 +165,7 @@ void menu(char* read, char* save) {
 	while (koniec != 'k') {
 		wsk = whichLine(&line, counter, head);
 
-		startOfTag(tag, tHead, tab, wsk, tagLine); //, tag[1]
+		startOfTag(tag, tHead, tab, wsk, tagLine); 
 		saveToFile(head, save);
 		puts("Jezeli chcesz zakonczyc wpisz k: ");
 		koniec = getchar();
